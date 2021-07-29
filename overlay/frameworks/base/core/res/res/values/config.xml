@@ -251,6 +251,11 @@
         The user is forbidden from setting the brightness below this level. -->
     <integer name="config_screenBrightnessSettingMinimum">2</integer>
 
+    <!-- Screen brightness used to dim the screen while dozing in a very low power state.
+        May be less than the minimum allowed brightness setting
+        that can be set by the user. -->
+    <integer name="config_screenBrightnessDoze">17</integer>
+
     <!--The bounding path of the cutout region of the main built-in display.
         Must either be empty if there is no cutout region, or a string that is parsable by
         {@link android.util.PathParser}.
