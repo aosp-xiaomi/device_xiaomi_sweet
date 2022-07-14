@@ -281,6 +281,7 @@ vendor/lib64/camera/com.qti.tuned.sweet_sunny_s5kgw3_wide.bin|34718fcf0dd5d3d30e
 # Display
 vendor/bin/qdcmss
 vendor/etc/dsi_k6_38_0c_0a_fhd_dsc_video_display_mi.xml
+vendor/etc/dsi_k6_38_0e_0b_fhd_dsc_video_display_mi.xml
 vendor/etc/hdr_config.cfg
 vendor/etc/init/qdcmss.rc
 vendor/etc/sdr_config.cfg
