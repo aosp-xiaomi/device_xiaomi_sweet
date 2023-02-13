@@ -31,7 +31,7 @@ TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 
 # Official
-AWAKEN_BUILD_TYPE := unofficial
+AWAKEN_BUILD_TYPE := official
 
 PRODUCT_NAME := awaken_sweet
 PRODUCT_DEVICE := sweet
