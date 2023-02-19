@@ -111,6 +111,7 @@ void vendor_load_properties() {
         fingerprint = "Redmi/sweet_global/sweet:12/SKQ1.210908.001/V13.0.16.0.SKFMIXM:user/release-keys";
         description = "sweet_global-user 12 SKQ1.210908.001 V13.0.16.0.SKFMIXM release-keys";
         mod_device = "sweet_global";
+        property_override("ro.boot.product.hardware.sku", "sweet");
     }
 
     set_ro_build_prop("fingerprint", fingerprint);
