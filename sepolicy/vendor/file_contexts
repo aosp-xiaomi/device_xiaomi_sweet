@@ -15,3 +15,6 @@
 
 # Xiaomi CIT sensor service
 /vendor/bin/hw/vendor\.xiaomi\.hardware\.citsensorservice@1\.1-service                  u:object_r:vendor_hal_citsensorservice_xiaomi_default_exec:s0
+
+# UFS discard_max_bytes
+/sys/devices/platform/soc/1d84000.ufshc/host0/target0:0:0/0:0:0:0/block/sda/queue/discard_max_bytes u:object_r:vendor_sysfs_mmc_host:s0
