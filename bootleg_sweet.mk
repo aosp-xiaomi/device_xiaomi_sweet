@@ -20,6 +20,10 @@ TARGET_USES_BLUR := false
 TARGET_USES_AOSP_CHARGER := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 
+# Maintainer String
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.bootleggers.maintainer=lemezohaib
+
 PRODUCT_NAME := bootleg_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Xiaomi
