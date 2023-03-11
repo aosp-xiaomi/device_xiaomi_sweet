@@ -94,7 +94,7 @@ PRODUCT_COPY_FILES += \
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-aosp \
+    $(LOCAL_PATH)/overlay-bootleg \
     $(LOCAL_PATH)/overlay-lineage
 
 # Overlay-RRO
