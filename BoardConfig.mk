@@ -36,6 +36,7 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_sweet
 
 # Kernel
 TARGET_KERNEL_CONFIG := sweet_defconfig
+KERNEL_CLANG_TRIPLE := CLANG_TRIPLE=aarch64-linux-gnu-
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
