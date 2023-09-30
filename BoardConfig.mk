@@ -24,6 +24,10 @@ ODM_MANIFEST_SKUS += sweet
 ODM_MANIFEST_SWEET_FILES := \
     $(DEVICE_PATH)/configs/hidl/manifest-nfc.xml
 
+# Camera
+MALLOC_SVELTE := true
+MALLOC_SVELTE_FOR_LIBC32 := true
+
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_sweet
 TARGET_RECOVERY_DEVICE_MODULES := libinit_sweet
