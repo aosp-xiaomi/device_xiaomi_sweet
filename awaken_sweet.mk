@@ -29,6 +29,9 @@ USE_PIXEL_CHARGER := true
 #official
 AWAKEN_BUILD_TYPE := official
 
+#face unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 PRODUCT_NAME := awaken_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Xiaomi
