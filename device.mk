@@ -60,7 +60,7 @@ PRODUCT_COPY_FILES += \
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-yaap
 
 # Overlay-RRO
 PRODUCT_PACKAGES += \
@@ -68,7 +68,13 @@ PRODUCT_PACKAGES += \
     SweetinproWifiOverlay \
     SweetWifiOverlay
 
+# Platform
+MSMSTEPPE := sm6150
+TARGET_BOARD_PLATFORM := $(MSMSTEPPE)
+
 # Power
+TARGET_PROVIDES_POWERHAL := true
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/power/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
