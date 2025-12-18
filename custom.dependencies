@@ -8,6 +8,10 @@
     "target_path": "device/xiaomi/sm6150-common"
   },
   {
+    "repository": "inferno0230/hardware_dolby",
+    "target_path": "hardware/dolby"
+  },
+  {
     "remote": "gitlab",
     "repository": "NoPrincessHere/proprietary_vendor_xiaomi_miuicamera-sweet",
     "target_path": "vendor/xiaomi/miuicamera-sweet"
