@@ -7,6 +7,9 @@
 # Inherit from sm6150-common
 $(call inherit-product, device/xiaomi/sm6150-common/sm6150.mk)
 
+# Inherit from dolby
+$(call inherit-product-if-exists, device/oneplus/dolby/device.mk)
+
 # MiuiCamera
 $(call inherit-product-if-exists, device/xiaomi/miuicamera-sweet/device.mk)
 
@@ -31,6 +34,9 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     hwcomposer.sweet
+
+# Dolby
+TARGET_USES_DOLBY := true
 
 # Init scripts
 PRODUCT_COPY_FILES += \
