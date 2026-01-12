@@ -7,9 +7,6 @@
 # Inherit from sm6150-common
 include device/xiaomi/sm6150-common/BoardConfigCommon.mk
 
-# Inherit from Dolby
--include device/oneplus/dolby/BoardConfig.mk
-
 # MiuiCamera
 -include device/xiaomi/miuicamera-sweet/BoardConfig.mk
 

@@ -8,7 +8,7 @@
 $(call inherit-product, device/xiaomi/sm6150-common/sm6150.mk)
 
 # Inherit from dolby
-$(call inherit-product-if-exists, device/oneplus/dolby/device.mk)
+$(call inherit-product-if-exists, vendor/oneplus/dolby/oplusdolby.mk)
 
 # MiuiCamera
 $(call inherit-product-if-exists, device/xiaomi/miuicamera-sweet/device.mk)
