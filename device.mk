@@ -10,9 +10,6 @@ $(call inherit-product, device/xiaomi/sm6150-common/sm6150.mk)
 # Inherit from dolby
 $(call inherit-product-if-exists, vendor/oneplus/dolby/oplusdolby.mk)
 
-# MiuiCamera
-$(call inherit-product-if-exists, device/xiaomi/miuicamera-sweet/device.mk)
-
 # API level, the device has been commercially launched on
 PRODUCT_SHIPPING_API_LEVEL := 30
 
@@ -115,3 +112,6 @@ PRODUCT_PACKAGES += \
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/sweet/sweet-vendor.mk)
+
+# MiuiCamera
+$(call inherit-product-if-exists, vendor/miuicamera-sweet/device.mk)
